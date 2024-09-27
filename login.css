@@ -1,0 +1,37 @@
+input {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: medium;
+    
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registro {
+    display: flex;
+    background-color: rgb(89, 212, 89);
+    width: 500px;
+    align-items: center;
+    justify-content: center; /* Centra los inputs horizontalmente */
+    flex-direction: column; /* Opcional: si quieres que los inputs se apilen verticalmente */
+    padding-top: 100px;
+}
+
+.contacto {
+    background-color: rgb(223, 164, 182);
+    width: 500px;
+}
+
+.recuperar {
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px black;
+    cursor: pointer;
+}
+
